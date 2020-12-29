@@ -1,8 +1,8 @@
 # ParseAnalyseReports
 
 Incredibly rough code.
-Project was done during my exchange in Tokyo, at Tokyo Insitute of Technology. 
-Accomplished:
+Project was done during my exchange in Tokyo, at Tokyo Insitute of Technology.
+### Accomplished:
 - Navigating websites
   - selenium
 - Scraping data from websites and parsing data from pdf files into html
@@ -12,14 +12,14 @@ Accomplished:
 - Conducting statistical analysis on data
   - statsmodel
 
-## Navigated Japanese Regulatory site containing English Corporate Governance Reports (CSG)
+## Navigated Japanese Regulatory site containing English Corporate Governance Reports (CSG) (*Upload Date Scaper.py*)
 - Used Selenium and code to convert pdf into html to parse for date published 
 - Each company had their own reporting format, and could change over the years
 - data had to be standardized
 - Resuling file contained: issuer info, and time of all releases was created
   - this was made into .csv file for tracking
   
-## STatistical analysis of reporting times vs other corporate data
+## STatistical analysis of reporting times vs other corporate data (*Stata data.py*)
 - Used Scipy and pandas to non-parametrically confirm relationships between variables
 - Used Statsmodel and pandas to create different regression models to test statistcal relationships
   - accounted for:
