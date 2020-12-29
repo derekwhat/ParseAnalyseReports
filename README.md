@@ -19,7 +19,7 @@ Project was done during my exchange in Tokyo, at Tokyo Insitute of Technology.
 - Resuling file contained: issuer info, and time of all releases was created
   - this was made into .csv file for tracking
   
-## STatistical analysis of reporting times vs other corporate data (*Stata data.py*)
+## Statistical analysis of reporting times vs other corporate data (*Stata data.py*)
 - Used Scipy and pandas to non-parametrically confirm relationships between variables
 - Used Statsmodel and pandas to create different regression models to test statistcal relationships
   - accounted for:
